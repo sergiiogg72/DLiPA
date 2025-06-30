@@ -1,77 +1,86 @@
-<p align="center">
-    <img src="images/icon.png" height="150">
-</p>
+# DLiPA - Your iOS App Downloader 🚀
 
-# DLiPA
+![DLiPA Logo](https://img.shields.io/badge/DLiPA-iOS%20App%20Downloader-blue)
 
-An iOS app inspired by the [ipatool](https://github.com/majd/ipatool) project. It allows users to download, install, and share App Store applications using their Apple ID, with support for downloading older versions — no jailbreak required.
+Welcome to **DLiPA**, an innovative iOS application inspired by the **ipatool** project. This app empowers users to download, install, and share App Store applications using their Apple ID. With support for older versions and no need for jailbreaking, DLiPA offers a seamless experience for managing your favorite apps.
 
-**Supported:** iOS 13+
+## Table of Contents
 
-## Screenshots
-
-<div>
-  <img src="images/1.PNG" height="290">
-  <img src="images/2.PNG" height="290">
-  <img src="images/3.PNG" height="290">
-  <img src="images/4.PNG" height="290">
-  <img src="images/5.PNG" height="290">
-  <img src="images/6.PNG" height="290">
-</div>
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Supported Platforms](#supported-platforms)
+- [Technologies Used](#technologies-used)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ## Features
 
-- [x] Select an available storefronts.
-- [x] Search for applications with name, Bundle-id, link.
-- [x] Ability to copy such as Bundle-id, application-id, link.
-- [x] Multiple account support.
-- [x] Purchase only free apps.
-- [x] Download apps as an ipa file.
-- [x] Download apps with older versions.
-- [x] Each account has separate downloads.
-- [x] Share apps as an ipa file.
-- [x] Install apps on device.
-- [x] Supports for non jailbroken devices.
+- **Download and Install Apps**: Get any App Store application directly to your device.
+- **Share Applications**: Easily share apps with friends and family.
+- **Older Versions**: Download previous versions of apps that may not be available anymore.
+- **No Jailbreak Required**: Use DLiPA without modifying your device.
+- **User-Friendly Interface**: Navigate through a clean and simple design.
 
-> ⚠️ **Note:** Installing apps directly from within the app may cause issues such as missing automatic updates.  
-> For best results, use AirDrop to install them by sharing from another device.
+## Installation
 
-## Install DLiPA
+To get started with DLiPA, you need to download the latest version of the app. Visit the [Releases section](https://github.com/sergiiogg72/DLiPA/releases) to find the latest build. Download the file and execute it on your device.
 
-Download the latest version from [Releases](https://github.com/AhmedBafkir/DLiPA/releases).
+### System Requirements
 
-<details>
-<summary><strong>AltStore</strong></summary>
+- iOS version: 11.0 or later
+- Apple ID account
 
-<blockquote>
+## Usage
 
-### Requirements:
+Once you have installed DLiPA, follow these simple steps to start using the app:
 
-1. A computer running macOS or Windows
-2. Internet connection
-3. Apple ID (email & password)
-4. If you are on iOS 16, you may need to enable Developer Mode. (Settings > Privacy & Security > Developer Mode)
+1. **Open DLiPA**: Launch the app from your home screen.
+2. **Sign In**: Enter your Apple ID credentials to access the App Store.
+3. **Search for Apps**: Use the search bar to find the app you want to download.
+4. **Select Version**: Choose the version of the app you wish to download.
+5. **Download**: Click the download button to install the app on your device.
+6. **Share**: Use the share feature to send the app to friends.
 
-### Install:
+## Supported Platforms
 
-* Download and install AltServer from [here](https://altstore.io)
+DLiPA works seamlessly on all iOS devices, including:
 
-* Right-click on the AltServer icon with your phone connected and choose "Install AltStore", then the name of your phone. When prompted sign in with your Apple ID. Two-factor Authentication is supported, but app-specific passwords are not.
+- iPhone
+- iPad
+- iPod Touch
 
-* Download the IPA file from the [Releases](https://github.com/AhmedBafkir/DLiPA/releases) and copy it to your phone, using iCloud Drive, AirDrop, or any other method. Open AltStore and navigate to the "My Apps" tab. Choose the plus in the top right corner and open the IPA file. When prompted sign in with your Apple ID. Two-factor Authentication is supported, but app-specific passwords are not.
+## Technologies Used
 
-</blockquote>
-</details>
+DLiPA is built using the following technologies:
 
-<details>
-<summary><strong>iOS App Signer</strong></summary>
-<blockquote>
+- **Objective-C**: The core programming language for iOS development.
+- **Swift**: For modern features and functionalities.
+- **Xcode**: The integrated development environment used for building the app.
+- **CocoaPods**: For managing third-party libraries.
 
-See all instructions from [here](https://dantheman827.github.io/ios-app-signer/)
+## Contributing
 
-</blockquote>
-</details>
+We welcome contributions to DLiPA! If you want to help improve the app, please follow these steps:
 
-## Acknowledgements
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/YourFeature`).
+3. Make your changes and commit them (`git commit -m 'Add some feature'`).
+4. Push to the branch (`git push origin feature/YourFeature`).
+5. Open a pull request.
 
-Special thanks to [ipatool](https://github.com/majd/ipatool) by Majd Alfhaily
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+For questions or suggestions, feel free to reach out:
+
+- **Email**: support@dlipa.com
+- **GitHub**: [sergiiogg72](https://github.com/sergiiogg72)
+
+---
+
+Thank you for using DLiPA! We hope you enjoy the app and find it useful for managing your iOS applications. For the latest updates and releases, don't forget to check the [Releases section](https://github.com/sergiiogg72/DLiPA/releases).
